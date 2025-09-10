@@ -64,3 +64,15 @@ try {
 } catch (err) {
   console.error(`❌ Error reading or parsing manifest: ${err.message}`);
 }
+
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/.well-known/farcaster.json',
+        destination: 'https://api.farcaster.xyz/miniapps/hosted-manifest/019932ea-04b2-2580-7a39-0ce98188ca06',
+        permanent: false // false = 307 Temporary Redirect
+      }
+    ];
+  }
+};
