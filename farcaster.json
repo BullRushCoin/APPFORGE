@@ -1,1 +1,27 @@
-
+{
+  "frame": {
+    "name": "APPFORGE",
+    "version": "1",
+    "iconUrl": "https://appforgecrypto.base44.app/icon.png",
+    "homeUrl": "https://appforgecrypto.base44.app",
+    "imageUrl": "https://appforgecrypto.base44.app/image.png",
+    "buttonTitle": "Open APP FORGE",
+    "splashImageUrl": "https://appforgecrypto.base44.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://appforgecrypto.base44.app/api/webhook",
+    "subtitle": "Wallet Dex Swapper all in one",
+    "description": "the next big dex and swapper for base ",
+    "primaryCategory": "utility",
+    "tags": [
+      "cryto",
+      "swap",
+      "btc",
+      "base"
+    ]
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEzMzE4MzQsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgwNzE5NzMzN2QyRDg1NWVjOTBlNzQzM0NGNTYwREFlMjc5N2VEMTM5In0",
+    "payload": "eyJkb21haW4iOiJhcHBmb3JnZWNyeXB0by5iYXNlNDQuYXBwIn0",
+    "signature": "P2INXsxQ30cRE/ir14xvPyxnhhIyFAPLwdkXQgYJeFQa6HNkFcwyVEMpOjMFfXPQvNh7pIEcVyOkmpMR3H4H4hs="
+  }
+}
